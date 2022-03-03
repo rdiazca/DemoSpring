@@ -9,17 +9,11 @@ import org.springframework.web.bind.annotation.RestController;*/
 //mvn spring-boot:run
 
 @SpringBootApplication
-//@RestController
 public class DemoApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
 	}
-	
-	/*@GetMapping("/hello")
-	public String hello(@RequestParam(value = "name", defaultValue = "WorldRaciel") String name){
-		return String.format("Hello %s!", name);
-	}*/
 
 }
 	/*<dependency>
